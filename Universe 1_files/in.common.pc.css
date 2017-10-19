@@ -1,0 +1,138 @@
+@charset "UTF-8";
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent; }
+
+body { line-height: 1; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+
+nav ul { list-style: none; }
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+
+a { margin: 0; padding: 0; font-size: 100%; vertical-align: baseline; background: transparent; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #cccccc; margin: 1em 0; padding: 0; }
+
+input, select { vertical-align: middle; }
+
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+
+.clearfix:after { clear: both; }
+
+img { vertical-align: bottom; }
+
+ul li { list-style: none; }
+
+body { font-family: Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif; }
+
+body { background: url("../img/chara/chapter4/bg.jpg"); }
+
+.sp { display: none; }
+
+/*
+.ballBg { background: url("../img/common/pc_bg_ball.jpg") no-repeat center top; width: 120%; height: 100%; position: fixed; z-index: -1; top: -40px; }
+*/
+
+#glovalnavi { background: url("../img/common/pc_menu/menu_bg_pattern.gif") repeat-x; height: 60px; position: relative; z-index: 20; width: 100%; min-width: 1000px; }
+#glovalnavi .navwrap { width: 1000px; position: relative; margin: auto; }
+#glovalnavi .navwrap .line { background: #fff; position: absolute; height: 5px; top: 53px; width: 50px; left: 0; opacity: 0; filter: alpha(opacity=0); z-index: 0; }
+#glovalnavi .navwrap .current { background: #fff; position: absolute; height: 5px; top: 53px; width: 51px; left: 0; z-index: 0; }
+#glovalnavi .navwrap ul { width: 1000px; margin: auto; padding-top: 18px; }
+#glovalnavi .navwrap ul li { float: left; margin-right: 30px; height: 60px; position: relative; z-index: 2; }
+#glovalnavi .navwrap ul li a { display: block; }
+#glovalnavi .navwrap ul li.top a { background: url("../img/common/pc_menu/top.png"); width: 51px; height: 22px; }
+#glovalnavi .navwrap ul li.news a { background: url("../img/common/pc_menu/news.png"); width: 73px; height: 22px; }
+#glovalnavi .navwrap ul li.about a { background: url("../img/common/pc_menu/product_info.png"); width: 93px; height: 22px; }
+#glovalnavi .navwrap ul li.chara a { background: url("../img/common/pc_menu/chara.png"); width: 109px; height: 22px; }
+#glovalnavi .navwrap ul li.story a { background: url("../img/common/pc_menu/story.png"); width: 73px; height: 22px; }
+#glovalnavi .navwrap ul li.goods a { background: url("../img/common/pc_menu/goods.png"); width: 56px; height: 22px; }
+#glovalnavi .navwrap ul li.special a { background: url("../img/common/pc_menu/special.png"); width: 92px; height: 22px; }
+#glovalnavi .navwrap ul li.none { opacity: 0.5; filter: alpha(opacity=50); }
+#glovalnavi .submenu { background: #fffefc; position: absolute; width: 100%; top: 60px; display: none; opacity: 0; filter: alpha(opacity=0); }
+#glovalnavi .submenu .wrap { width: 1000px; margin: auto; height: 60px; }
+#glovalnavi .submenu .wrap p { float: left; margin-right: 30px; line-height: 60px; }
+#glovalnavi .submenu .wrap p a { color: #bf000a; text-decoration: none; }
+#glovalnavi .submenu .wrap p a:hover { text-decoration: underline; }
+#glovalnavi .sns { width: 1000px; margin: auto; position: relative; height: 0; }
+#glovalnavi .sns ul { position: absolute; right: 0; }
+#glovalnavi .sns li { display: inline-block; }
+#glovalnavi .sns li.fb { margin-right: 25px; }
+
+.wrapper .pageTop { width: 70px; cursor: pointer; position: fixed; right: 30px; bottom: 30px; opacity: 0; filter: alpha(opacity=0); }
+
+footer { width: 1000px; margin: auto; background: url("../img/common/pc_footer_line.gif") no-repeat top; padding-top: 31px; padding-bottom: 40px; }
+footer ul { margin-bottom: 40px; }
+footer ul li { float: left; margin-right: 12px; }
+footer ul li:last-child(1) { margin-right: 0; }
+footer ul.second {margin-bottom: 40px;margin-top:-20px; }
+footer ul.second li { float: left; margin-right: 12px; }
+footer ul.second li:last-child(1) { margin-right: 0; }
+
+footer .copy { text-align: center; font-size: 12px; font-size: 0.75rem; }
+
+/*.wrapper { width:1000px; margin: auto; position: relative; padding-bottom: 60px; z-index:10000;}*/
+.wrapper { width:1000px; margin: auto; position: relative; padding-bottom: 60px; z-index: 3;}
+/*.wrapper .title { position: relative; height: 118px; padding: 30px 0; margin-bottom: 150px; }*/
+.wrapper .title { position: relative; height: 118px; padding: 30px 0; margin-bottom: 150px; z-index: 19;}
+.wrapper .title h1 { position: absolute; width: 275px; right: 0; z-index: 1; top:50px;}
+.wrapper .title h2 { text-indent: -1000px; position: absolute; left: 0; height: 70px; top: 60%; margin-top: -35px; width: 100%; z-index: 0; }
+
+
+article.product div.pc{display:block;}
+
+
+.dot{top:50px;width:100%;height:200px;position:fixed;z-index:9999;background: url("../img/top/movie_dot.png") repeat;}
+.backlayer{top:200px;width:100%;height:100%;position:fixed;z-index:9998;background: url("../img/chara/chapter4/bg.jpg") repeat;}
+#window{position:absolute;z-index:9997;height:200px !important;top:100px !important;padding-top:200px;}
+.html5-video-container {position: relative;top: 250px;}
+
+
+
+
+/*
+#js-bgmovie {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 360px;
+}
+*/
+
+#tubular-container {
+  height: 250px !important;
+  position: absolute !important;
+  top: 100px;
+}
+#tubular-player {
+  top: -200px !important;
+}
+#tubular-container:after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(../img/top/movie_dot.png);
+}

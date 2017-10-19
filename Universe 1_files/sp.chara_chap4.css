@@ -1,0 +1,265 @@
+@charset "UTF-8";
+body {
+  background-image: url("https://i.imgur.com/hYLtXDZ.jpg") center top;
+  -webkit-background-size: 150% auto;
+          background-size: 150% auto;
+}
+
+.ballBg {
+  display: none;
+}
+
+.wrapper .title h2 {
+  background-image: url("../img/chara/chapter4/sp_title_chara.png");
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.wrapper img {
+  max-width: 100%;
+}
+
+.wrapper .ditail {
+  background: none;
+  height: auto;
+}
+
+.wrapper {
+  font-family: "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+.wrapper .chap4_title {
+  text-align: center;
+  padding: 2% 0 0;
+}
+
+.wrapper .chap4_sub_title {
+  margin-top: 1.5%;
+  text-align: center;
+}
+
+.wrapper .chap4_sub_txt {
+  padding: 0 5%;
+  margin-top: 8px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 16px;
+  font-style: italic;
+  text-shadow: 2px 2px 1px #000;
+}
+
+.wrapper .chap4_slide {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.wrapper .chap4_chara_title {
+  width: 100%;
+  margin: 5% auto 4%;
+  text-align: center;
+}
+
+.wrapper .chap4_slide {
+  margin-top: 30px;
+}
+
+.wrapper .chap4_list {
+  width: 89%;
+  margin: 5% auto 0;
+  padding-bottom: 5%;
+}
+
+.wrapper .chap4_list li {
+  position: relative;
+  float: left;
+  width: 24.25%;
+  margin-right: 1%;
+  margin-top: 1%;
+}
+
+.wrapper .chap4_list li:nth-child(4n) {
+  margin-right: 0;
+}
+
+.wrapper .chap4_list li a {
+  display: block;
+  width: 100%;
+  padding-bottom: 100%;
+}
+
+.wrapper .chap4_list li.btn_no01 a {
+  background: url(../img/chara/chapter4/btn_01.jpg) no-repeat top center;
+  -webkit-background-size: 100% auto;
+          background-size: 100% auto;
+}
+
+.wrapper .chap4_list li.btn_no02 a {
+  background: url(../img/chara/chapter4/btn_02.jpg) no-repeat top center;
+  -webkit-background-size: 100% auto;
+          background-size: 100% auto;
+}
+
+.wrapper .chap4_list li.btn_no03 a {
+  background: url(../img/chara/chapter4/btn_03.jpg) no-repeat top center;
+  -webkit-background-size: 100% auto;
+          background-size: 100% auto;
+}
+
+.wrapper .chap4_list li.btn_no04 a {
+  background: url(../img/chara/chapter4/btn_04.jpg) no-repeat top center;
+  -webkit-background-size: 100% auto;
+          background-size: 100% auto;
+}
+
+.wrapper .chap4_list li.btn_no05 a {
+  background: url(../img/chara/chapter4/btn_05.jpg) no-repeat top center;
+  -webkit-background-size: 100% auto;
+          background-size: 100% auto;
+}
+
+.wrapper .chap4_list li.btn_no06 a {
+  background: url(../img/chara/chapter4/btn_06.jpg) no-repeat top center;
+  -webkit-background-size: 100% auto;
+          background-size: 100% auto;
+}
+
+.wrapper .chap4_list li.btn_no07 a {
+  background: url(../img/chara/chapter4/btn_07.jpg) no-repeat top center;
+  -webkit-background-size: 100% auto;
+          background-size: 100% auto;
+}
+
+.wrapper .chap4_list li.btn_no08 a {
+  background: url(../img/chara/chapter4/btn_08.jpg) no-repeat top center;
+  -webkit-background-size: 100% auto;
+          background-size: 100% auto;
+}
+
+.wrapper .chap4_list li.btn_no09 a {
+  background: url(../img/chara/chapter4/btn_09.jpg) no-repeat top center;
+  -webkit-background-size: 100% auto;
+          background-size: 100% auto;
+}
+
+.wrapper .chap4_list li.btn_no10 a {
+  background: url(../img/chara/chapter4/btn_10.jpg) no-repeat top center;
+  -webkit-background-size: 100% auto;
+          background-size: 100% auto;
+}
+
+.wrapper .chap4_list li.btn_no11 a {
+  background: url(../img/chara/chapter4/btn_11.jpg) no-repeat top center;
+  -webkit-background-size: 100% auto;
+          background-size: 100% auto;
+}
+
+.wrapper .chap4_list li.btn_no12 a {
+  background: url(../img/chara/chapter4/btn_12.jpg) no-repeat top center;
+  -webkit-background-size: 100% auto;
+          background-size: 100% auto;
+}
+
+.wrapper .chap4_chara_list {
+  margin-top: 7.5%;
+  text-align: left;
+}
+
+.wrapper .chap4_chara_list li {
+  position: relative;
+  width: 80%;
+  margin: 0 auto 8%;
+  background: url(../img/chara/chapter4/chara_bg.jpg) no-repeat top center;
+  -webkit-background-size: contain;
+          background-size: contain;
+}
+
+.wrapper .chap4_chara_list li .chara_name_box {
+  position: absolute;
+  left: 20px;
+  top: 15px;
+}
+
+.wrapper .chap4_chara_list li .chara_name {
+  font-size: 40px;
+  color: #fff;
+  font-style: italic;
+  letter-spacing: -.035em;
+  font-weight: bold;
+  text-shadow: 2px 2px 1px #000;
+}
+
+.wrapper .chap4_chara_list li .chara_cv {
+  margin-top: 9px;
+  padding-left: 3px;
+  color: #fff100;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.wrapper .chap4_chara_list li .chara_txt {
+  position: absolute;
+  bottom: 0;
+  left: 6%;
+  width: 88%;
+  height: 100px;
+  border-top: 1px solid #000;
+  padding-top: 10px;
+  font-size: 0.875em;
+  line-height: 1.375em;
+  font-weight: 500;
+}
+
+.wrapper .chap4_chara_list li .category {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  padding: 6% 0 0 0;
+  font-size: 26px;
+  line-height: 2.4;
+  letter-spacing: .2em;
+  font-weight: bold;
+  -ms-writing-mode: tb-rl;
+  -webkit-writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.wrapper .chap4_chara_list li .category.kaio {
+  background: url(../img/chara/chapter4/tag_03.png) no-repeat top center;
+  -webkit-background-size: contain;
+          background-size: contain;
+}
+
+.wrapper .chap4_chara_list li .category.senshi {
+  background: url(../img/chara/chapter4/tag_02.png) no-repeat top center;
+  -webkit-background-size: contain;
+          background-size: contain;
+}
+
+.wrapper .chap4_chara_list li .category.hakai {
+  background: url(../img/chara/chapter4/tag_04.png) no-repeat top center;
+  -webkit-background-size: contain;
+          background-size: contain;
+  color: #fff;
+}
+
+.wrapper .chap4_chara_list li .category.tenshi {
+  background: url(../img/chara/chapter4/tag_01.png) no-repeat top center;
+  -webkit-background-size: contain;
+          background-size: contain;
+}
+
+footer .copy {
+  color: #fff;
+}
+
+.bx-controls-direction{display:none;}
+
+img.chara02{position:absolute;top:0px;opacity:0;}

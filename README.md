@@ -1,2 +1,2 @@
 # ToeiEnglish
-An English Revision of Toei's Dragon Ball Super Site
+An English Mirror for Toei Animation's Dragon Ball Super Site
